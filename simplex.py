@@ -81,7 +81,7 @@ SELECCIONE
             const_names.append('X' + str(i))
             solutions.append('X' + str(i))
             i += 1
-        solutions.append(' Z')
+        solutions.append(' Z') 
         const_names.append('Bi')
         final_cols.append(z_equation)
         final_rows = np.array(final_cols).T.tolist()
