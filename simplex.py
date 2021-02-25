@@ -2,6 +2,7 @@ import sys
 import numpy as np
 from fractions import Fraction
 
+
 try:
     import pandas as pd
     pandas_av = True
@@ -427,7 +428,12 @@ def stdz_rows(column_values):
 
     return final_cols
 
+
+
+    
+
 #none
 if __name__ == "__main__":
     main()
 
+input("presiona una tecla para salir")
